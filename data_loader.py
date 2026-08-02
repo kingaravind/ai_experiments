@@ -1,4 +1,5 @@
-# Generated on 2026-07-31T12:33:13.384389
+# Generated on 2026-08-02T08:50:50.181992
 
-def preprocess_text(text):
-    return text.lower().strip()
+def calculate_loss(y_true, y_pred):
+    import numpy as np
+    return np.mean((y_true - y_pred)**2)
