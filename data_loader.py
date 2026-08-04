@@ -1,5 +1,4 @@
-# Generated on 2026-08-03T07:46:58.805569
+# Generated on 2026-08-04T21:32:43.340176
 
-def calculate_loss(y_true, y_pred):
-    import numpy as np
-    return np.mean((y_true - y_pred)**2)
+def preprocess_text(text):
+    return text.lower().strip()
