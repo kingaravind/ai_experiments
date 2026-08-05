@@ -1,5 +1,4 @@
-# Generated on 2026-08-04T02:55:51.276143
+# Generated on 2026-08-05T19:01:59.440448
 
-def load_dataset(path):
-    import pandas as pd
-    return pd.read_csv(path)
+def preprocess_text(text):
+    return text.lower().strip()
