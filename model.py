@@ -1,5 +1,5 @@
-# Generated on 2026-08-10T09:15:03.706193
+# Generated on 2026-08-11T04:21:50.484015
 
-def calculate_loss(y_true, y_pred):
-    import numpy as np
-    return np.mean((y_true - y_pred)**2)
+def load_dataset(path):
+    import pandas as pd
+    return pd.read_csv(path)
