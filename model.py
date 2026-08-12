@@ -1,5 +1,7 @@
-# Generated on 2026-08-11T04:21:50.484015
+# Generated on 2026-08-12T02:00:44.323486
 
-def load_dataset(path):
-    import pandas as pd
-    return pd.read_csv(path)
+class SimpleModel:
+    def __init__(self):
+        self.weights = []
+    def forward(self, x):
+        return x
